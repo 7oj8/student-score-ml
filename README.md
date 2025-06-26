@@ -1,37 +1,30 @@
-# Student Score Prediction – Machine-Learning Project
+# Student Score Prediction
 
-## Dataset
-* **Source** Student Performance Data Set (UCI / Kaggle)  
-  <https://www.kaggle.com/datasets/spscientist/students-performance-in-exams>  
-* **Scope** 1 000 secondary-school students, with features such as study hours, parental education, lunch type, test preparation, and scores in maths, reading and writing.
+## Dataset  
 
-## Objective
-Predict students’ academic results and understand which factors influence performance.
+**Students Performance in Exams** — Kaggle  
 
-## What I Did
-* **Loaded & Explored the Data**  
-  * Imported the CSV into a pandas DataFrame.  
-  * Inspected column types, checked for duplicates and missing values, reviewed descriptive stats.
-* **Cleaned & Feature-Engineered**  
-  * Filled / dropped nulls, label-encoded categoricals.  
-  * Created numerical indicators (e.g. total score, average score) and binary targets (pass / fail ≥ 50).  
-  * Normalised numeric inputs where required.
-* **Modelled Performance**  
-  * **Simple Linear Regression** – predict total score from study hours.  
-  * **Multiple Linear Regression** – include all available features.  
-  * **Classification** – logistic regression and random forest to classify pass vs. fail.
-* **Evaluated Models**  
-  * Regression: MAE, RMSE, R².  
-  * Classification: accuracy, precision, recall, F1.  
-  * Cross-validation to check robustness.
-* **Visualised Findings**  
-  * Histograms of score distributions.  
-  * Scatter plots of study hours vs. score.  
-  * Feature-importance bar chart for the random-forest model.
+## Objective  
 
-## Tools Used
-* Python 3.9  
-* pandas, numpy  
-* scikit-learn  
-* matplotlib  
-* Jupyter Notebook / Google Colab
+Analyze student-performance data and build models that predict exam results while revealing the factors that most influence academic success.
+
+## What I Did  
+
+- **Loaded and Explored the Data:** Imported the CSV into a pandas DataFrame, checked data types, missing values, and basic statistics.  
+- **Cleaned and Feature-Engineered:** Filled or dropped nulls, label-encoded categorical variables, and created features such as total score, average score, and a pass/fail flag.  
+- **Built Predictive Models:**
+  
+  - *Simple Linear Regression* to predict total score from study hours.  
+  - *Multiple Linear Regression* using all available features.  
+  - *Logistic Regression* to classify pass vs. fail.
+    
+- **Evaluated Performance:** Used MAE, RMSE, and R² for regression models; accuracy, precision, recall, and F1 score for classification.  
+- **Visualized Findings:** Plotted score distributions, study-hours vs. score scatter plots, and feature-importance charts with Matplotlib.
+
+## Tools Used  
+Python
+pandas
+NumPy
+scikit-learn
+Matplotlib
+Jupyter Notebook / Google Colab
