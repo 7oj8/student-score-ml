@@ -23,9 +23,9 @@ Analyze student-performance data and build models that predict exam results whil
 - **Visualized Findings:** Plotted score distributions, study-hours vs. score scatter plots, and feature-importance charts with Matplotlib.
 
 ## Tools Used  
-Python
-pandas
-NumPy
-scikit-learn
-Matplotlib
-Jupyter Notebook / Google Colab
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- Matplotlib
+- Jupyter Notebook / Google Colab
